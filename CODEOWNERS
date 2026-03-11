@@ -1,0 +1,18 @@
+# zsel-cloud CODEOWNERS
+# https://help.github.com/articles/about-codeowners/
+
+# Services
+services/keycloak/        @security-team @platform-team
+services/moodle/          @education-team @platform-team
+services/nextcloud/       @storage-team @platform-team
+services/postgresql/      @database-team @platform-team
+services/redis/           @infrastructure-team @platform-team
+
+# Documentation
+docs/                     @docs-team
+README.md                 @platform-team
+CONTRIBUTING.md           @platform-team
+
+# Configuration
+.github/workflows/        @platform-team
+examples/                 @platform-team

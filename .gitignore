@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+htmlcov/
+coverage.xml
+.coverage
+
+# Kubernetes
+kubeconfig
+*.yaml.bak
+
+# Secrets
+secrets/
+*.key
+**/passwords.txt
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS-specific
+Thumbs.db
+.AppleDouble
+.LSOverride
