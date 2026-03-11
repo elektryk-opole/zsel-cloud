@@ -2,17 +2,17 @@
 # https://help.github.com/articles/about-codeowners/
 
 # Services
-services/keycloak/        @security-team @platform-team
-services/moodle/          @education-team @platform-team
-services/nextcloud/       @storage-team @platform-team
-services/postgresql/      @database-team @platform-team
-services/redis/           @infrastructure-team @platform-team
+services/keycloak/        @security-team @platform-team @lkolo-prez
+services/moodle/          @education-team @platform-team @lkolo-prez
+services/nextcloud/       @storage-team @platform-team @lkolo-prez
+services/postgresql/      @database-team @platform-team @lkolo-prez
+services/redis/           @infrastructure-team @platform-team @lkolo-prez
 
 # Documentation
-docs/                     @docs-team
-README.md                 @platform-team
-CONTRIBUTING.md           @platform-team
+docs/                     @docs-team @lkolo-prez
+README.md                 @platform-team @lkolo-prez
+CONTRIBUTING.md           @platform-team @lkolo-prez
 
 # Configuration
-.github/workflows/        @platform-team
-examples/                 @platform-team
+.github/workflows/        @platform-team @lkolo-prez
+examples/                 @platform-team @lkolo-prez
