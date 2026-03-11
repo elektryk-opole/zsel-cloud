@@ -1,17 +1,6 @@
 # zsel-cloud CODEOWNERS
-# https://help.github.com/articles/about-codeowners/
 
-# Services
-services/keycloak/        @security-team @platform-team @lkolo-prez
-services/moodle/          @education-team @platform-team @lkolo-prez
-services/nextcloud/       @storage-team @platform-team @lkolo-prez
-services/postgresql/      @database-team @platform-team @lkolo-prez
-services/redis/           @infrastructure-team @platform-team @lkolo-prez
-
-# Documentation
-docs/                     @docs-team @lkolo-prez
-README.md                 @platform-team @lkolo-prez
-CONTRIBUTING.md           @platform-team @lkolo-prez
+* @lkolo-prez
 
 # Configuration
 .github/workflows/        @platform-team @lkolo-prez
